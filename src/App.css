@@ -1,8 +1,25 @@
+.App {
+  background-color: #a6cef4;
+}
+
 .App .container {
   margin: 0 auto;
+  max-width: 1000px;
+}
+
+.App h1 {
+  color: #2d5b86;
+
+  background-color: #fdfdfd;
+  padding: 20px 0;
+  border-radius: 5px;
+  margin: 0 0 20px 0;
+  font-size: 3.5rem;
+  font-weight: 600;
 }
 
 footer {
   margin-top: 10px;
   text-align: center;
+  color: #2d5b86;
 }

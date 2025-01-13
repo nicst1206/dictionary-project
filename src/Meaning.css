@@ -1,0 +1,15 @@
+.Meaning h5 {
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.WordDefinition {
+  margin: 5px 0;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.WordExample {
+  margin: 5px 0;
+  line-height: 1.3;
+}

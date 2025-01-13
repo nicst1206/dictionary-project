@@ -5,9 +5,11 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header"></header>
-        <h1 className="text-center">Dictionary</h1>
-        <Dictionary defaultKeyword="book" />
+        <header className="App-header">
+          <h1 className="text-center">Dictionary</h1>
+        </header>
+
+        <Dictionary defaultKeyword="sunset" />
         <footer>
           <small>
             This webiste was coded by Nicole Stoewer-Rust and is{" "}
