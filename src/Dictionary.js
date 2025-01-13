@@ -7,6 +7,7 @@ export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
+  let defaultWordValue = `i.e. ${props.defaultKeyword}`;
 
   function handleResponse(response) {
     setResults(response.data);
@@ -38,7 +39,7 @@ export default function Dictionary(props) {
             type="search"
             autoFocus={true}
             onChange={changeKeyword}
-            defaultValue={props.defaultKeyword}
+            defaultValue={defaultWordValue}
           ></input>
           <input className="searchButton" type="submit" value="Search"></input>
         </form>
