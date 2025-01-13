@@ -11,24 +11,22 @@ function App() {
 
         <Dictionary defaultKeyword="sunset" />
         <footer>
-          <small>
-            This webiste was coded by Nicole Stoewer-Rust and is{" "}
-            <a
-              href="https://github.com/nicst1206/dictionary-project"
-              target="_blank"
-              rel="noreferrer"
-            >
-              open-sourced on GitHub
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://nicolesreactweatherproject.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              hosted on Netlify
-            </a>
-          </small>
+          This webiste was coded by Nicole Stoewer-Rust and is{" "}
+          <a
+            href="https://github.com/nicst1206/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://nicolesreactweatherproject.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
